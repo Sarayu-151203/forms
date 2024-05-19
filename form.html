@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./formsstyles.css">
+</head>
+<body>
+    <div class="container">
+        <center> 
+            <h1>Registration Form</h1>
+            <form action="http://127.0.0.1:5500/contentStack/project3.html _targetblank">
+                <table>
+                    <tr>    
+                        <td><label for="name">Name:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone Number:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" id="phone" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select id="gender" name="gender" required>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="language">Language:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="language" name="language" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="zipcode">Zip code:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="zipcode" name="zipcode" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="about">About:</label></td>
+                    </tr>
+                    <tr>
+                        <td><textarea id="about" name="about" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </div>
+</body>   
+</html>
